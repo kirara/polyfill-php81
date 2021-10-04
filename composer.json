@@ -1,11 +1,15 @@
 {
-    "name": "symfony/polyfill-php81",
+    "name": "kirara/polyfill-php81",
     "type": "library",
     "description": "Symfony polyfill backporting some PHP 8.1+ features to lower PHP versions",
     "keywords": ["polyfill", "shim", "compatibility", "portable"],
     "homepage": "https://symfony.com",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Martin Vendl",
+            "email": "vmarty89@gmail.com"
+        },
         {
             "name": "Nicolas Grekas",
             "email": "p@tchwork.com"
@@ -16,7 +20,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1"
+        "php": ">=5.3"
     },
     "autoload": {
         "psr-4": { "Symfony\\Polyfill\\Php81\\": "" },
